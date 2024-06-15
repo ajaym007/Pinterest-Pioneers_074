@@ -23,7 +23,7 @@ STEPS OF DATA SCRAPPING FROM THE LINKEDIN WEBSITE
 5. Extracting Data from Each Job Listing:
     The code loops through each job listing on the current page.
     For each job listing, it clicks on it to open the details page.
-    It scrolls down the page to the bottom (might not be necessary).
+    It scrolls down the page to the bottom.
     The code then tries to extract various details about the job and company from the page:
     Job title (designation)
     Company name
