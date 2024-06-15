@@ -2,7 +2,7 @@ STEPS OF DATA SCRAPPING FROM THE LINKEDIN WEBSITE
 
 1. Setting Up:
     The code imports libraries to control a web browser and work with data.
-    It stores your LinkedIn username and password (Warning: This is not secure. Consider using environment variables or secure storage).
+    It stores your LinkedIn username and password.
     It sets up a tool to control the Chrome web browser.
 
 2. Logging In:
@@ -25,17 +25,17 @@ STEPS OF DATA SCRAPPING FROM THE LINKEDIN WEBSITE
     For each job listing, it clicks on it to open the details page.
     It scrolls down the page to the bottom.
     The code then tries to extract various details about the job and company from the page:
-    Job title (designation)
-    Company name
-    Company size (number of employees)
-    Company followers on LinkedIn
-    Job seniority level
-    Number of applicants (might be inaccurate)
-    Job location
+      1. Job title (designation)
+      2. Company name
+      3. Company size (number of employees)
+      4. Company followers on LinkedIn
+      5. Job seniority level
+      6. Number of applicants (might be inaccurate)
+      7. Job location
 
 6. Storing Extracted Data:
     If the code successfully finds each data element, it stores the information in the container created earlier.
 
 
 Overall, this code automates logging into LinkedIn and scraping data from job listings across potentially multiple pages.
-Here the code file link :codeforwebscraping.ipynb
+
