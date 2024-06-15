@@ -38,3 +38,4 @@ STEPS OF DATA SCRAPPING FROM THE LINKEDIN WEBSITE
 
 
 Overall, this code automates logging into LinkedIn and scraping data from job listings across potentially multiple pages.
+Here the code file link :codeforwebscraping.ipynb
