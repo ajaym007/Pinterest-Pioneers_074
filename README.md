@@ -72,3 +72,7 @@ STEPS FOR DATA CLEANING :
 
 12. Saving Cleaned Data to CSV: Saved the cleaned and separated DataFrames into individual CSV files for further analysis and usage. This ensured that each table (jobs, company, details) was stored in a structured format for easy access and analysis.
 
+
+
+
+![Dashboard 2](https://github.com/ajaym007/Pinterest-Pioneers_074/assets/103578366/07358d0c-69d5-4721-bf8f-ff39f0612625)
