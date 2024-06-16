@@ -1,3 +1,4 @@
+
 ![project-logo](https://github.com/ajaym007/Pinterest-Pioneers_074/assets/172394805/2cdac22a-5f2a-413b-84b5-ba23d5563858)
 
 STEPS OF DATA SCRAPPING FROM THE LINKEDIN WEBSITE
@@ -40,6 +41,9 @@ STEPS OF DATA SCRAPPING FROM THE LINKEDIN WEBSITE
 
 
 Overall, this code automates logging into LinkedIn and scraping data from job listings across potentially multiple pages.
+
+
+![er diagram final](https://github.com/ajaym007/Pinterest-Pioneers_074/assets/172352623/9dc12fbd-f836-422e-a6f3-508ae1df6477)
 
 
 
