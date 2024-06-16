@@ -31,7 +31,8 @@ STEPS OF DATA SCRAPPING FROM THE LINKEDIN WEBSITE
     Company followers on LinkedIn
     Job seniority level
     Number of applicants (might be inaccurate)
-    Job location
+    Job location!
+
 
 6. Storing Extracted Data:
     If the code successfully finds each data element, it stores the information in the container created earlier.
@@ -39,3 +40,8 @@ STEPS OF DATA SCRAPPING FROM THE LINKEDIN WEBSITE
 
 Overall, this code automates logging into LinkedIn and scraping data from job listings across potentially multiple pages.
 Here the code file link :codeforwebscraping.ipynb
+
+
+
+
+[Dashboard 2](https://github.com/ajaym007/Pinterest-Pioneers_074/assets/103578366/b9936c86-bdcf-4ecb-8958-5b9126b79b21)
