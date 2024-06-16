@@ -46,4 +46,29 @@ Overall, this code automates logging into LinkedIn and scraping data from job li
 ![er diagram final](https://github.com/ajaym007/Pinterest-Pioneers_074/assets/172352623/9dc12fbd-f836-422e-a6f3-508ae1df6477)
 
 
+STEPS FOR DATA CLEANING : 
+
+1. Concatenation of Data: Combined multiple CSV files into a single DataFrame using pandas' concat() function. This step ensured that all relevant data is consolidated into a single structure for uniform analysis.
+
+2. Renaming Columns: Standardized column names to ensure consistency. For example, changed all column names to have the to respective requirement.
+
+3. Creating Unique Identifiers: Generated unique values for job_id, company_id, and details_id columns to uniquely identify each job, company, and job details.
+
+4. Converting 'LinkedIn Followers' to Numbers: Processed the 'LinkedIn Followers' column to extract numerical values and convert them to integers. This involved removing any non-numeric characters, such as commas and text, using string replacement and type conversion.
+
+5. Processing 'Employee Count': Similar to the 'LinkedIn Followers' column, cleaned the 'Employee Count' column by removing non-numeric characters and converting the values to integers for consistent numerical analysis.
+
+6. Extracting Strings from 'Total Applicants': Extracted the relevant numerical data from the 'Total Applicants' column, which contained strings with multiple pieces of information. This was achieved using regular expressions and string manipulation to isolate the number of applicants.
+
+7. Cleaning the 'Industry' Column: Processed the 'Industry' column to extract only the industry name, removing any additional information like employee counts or other descriptors.
+
+8. Standardizing the 'Level' Column: Cleaned the 'Level' column to standardize the job level descriptions. Extracted specific keywords like 'Full-Time', 'Internship', and 'Mid-Senior level', ensuring that only these relevant terms were retained.
+
+9. Checking for Duplicates: Identified and removed any duplicate rows in the DataFrame to maintain data integrity and prevent redundancy.
+
+10. Handling Missing Values: Checked for null values across all columns. Rows with missing values were removed to ensure completeness and reliability of the data.
+
+11. Separating DataFrames: Separated the cleaned DataFrame into three distinct tables: jobs, company, and details. This was done based on the specific attributes relevant to each table.
+
+12. Saving Cleaned Data to CSV: Saved the cleaned and separated DataFrames into individual CSV files for further analysis and usage. This ensured that each table (jobs, company, details) was stored in a structured format for easy access and analysis.
 
