@@ -28,6 +28,15 @@ STEPS OF DATA SCRAPPING FROM THE LINKEDIN WEBSITE
     For each job listing, it clicks on it to open the details page.
     It scrolls down the page to the bottom.
     The code then tries to extract various details about the job and company from the page:
+
+    Job title (designation)
+    Company name
+    Company size (number of employees)
+    Company followers on LinkedIn
+    Job seniority level
+    Number of applicants (might be inaccurate)
+    Job location!
+
       1. Job title (designation)
       2. Company name
       3. Company size (number of employees)
@@ -36,11 +45,20 @@ STEPS OF DATA SCRAPPING FROM THE LINKEDIN WEBSITE
       6. Number of applicants (might be inaccurate)
       7. Job location
 
+
 6. Storing Extracted Data:
     If the code successfully finds each data element, it stores the information in the container created earlier.
 
 
 Overall, this code automates logging into LinkedIn and scraping data from job listings across potentially multiple pages.
+
+Here the code file link :codeforwebscraping.ipynb
+
+
+
+
+[Dashboard 2](https://github.com/ajaym007/Pinterest-Pioneers_074/assets/103578366/b9936c86-bdcf-4ecb-8958-5b9126b79b21)
+
 
 
 ![er diagram final](https://github.com/ajaym007/Pinterest-Pioneers_074/assets/172352623/9dc12fbd-f836-422e-a6f3-508ae1df6477)
@@ -76,3 +94,4 @@ STEPS FOR DATA CLEANING :
 
 
 ![Dashboard 2](https://github.com/ajaym007/Pinterest-Pioneers_074/assets/103578366/07358d0c-69d5-4721-bf8f-ff39f0612625)
+
